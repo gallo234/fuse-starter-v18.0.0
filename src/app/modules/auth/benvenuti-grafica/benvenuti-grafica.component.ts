@@ -6,9 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { RouterLink } from '@angular/router';
 import { fuseAnimations } from '@fuse/animations';
-import { FuseAlertComponent } from '@fuse/components/alert';
 
 @Component({
     selector: 'benvenuti-grafica',
@@ -17,8 +15,6 @@ import { FuseAlertComponent } from '@fuse/components/alert';
     animations: fuseAnimations,
     standalone: true,
     imports: [
-        RouterLink,
-        FuseAlertComponent,
         FormsModule,
         ReactiveFormsModule,
         MatFormFieldModule,
